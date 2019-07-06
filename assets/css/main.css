@@ -3700,13 +3700,8 @@ input, select, textarea {
     display: flex;
     justify-content: center;
     padding: 25px 0px;
+    min-height: 100vh;
   }
-
-@media all and (max-width: 480px) {
-  .fb-iframe {
-    padding: 0px 0px !important;
-  }
-}
 
 	#wrapper > .main {
 		background-color: #23b1ec;
