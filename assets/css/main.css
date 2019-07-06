@@ -3702,6 +3702,12 @@ input, select, textarea {
     padding: 25px 0px;
   }
 
+@media all and (max-width: 480px) {
+  .fb-iframe {
+    padding: 0px 0px !important;
+  }
+}
+
 	#wrapper > .main {
 		background-color: #23b1ec;
 	}
